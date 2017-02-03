@@ -5,6 +5,6 @@
 </head>
 <body>
 <h1>Guillaume Fleurisson</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<a href="https://GuiF1996.github.io">Bitcoin</a>
 </body>
 </html>
