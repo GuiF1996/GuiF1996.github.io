@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("demo").innerHTML = jsonPretty;
     }
 };
-xmlhttp.open("GET", "http://bitcoin.mubiz.com/address/bitcoin_address/", true);
+xmlhttp.open("GET", "http://bitcoin.mubiz.com/blockchaininfo", true);
 xmlhttp.send();
 
 /*$(document).ready(function() {
