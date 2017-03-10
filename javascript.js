@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("demo").innerHTML = jsonPretty;
     }
 };
-xmlhttp.open("GET", "https://api.blockcypher.com/v1/btc/main/blocks/294322?txstart=1&limit=1", true);
+xmlhttp.open("GET", "http://bitcoin.mubiz.com/address/bitcoin_address/", true);
 xmlhttp.send();
 
 /*$(document).ready(function() {
