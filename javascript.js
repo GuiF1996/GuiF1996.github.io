@@ -1,4 +1,4 @@
-var xmlhttp = new XMLHttpRequest();
+/*var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = this.responseText;
@@ -7,11 +7,11 @@ xmlhttp.onreadystatechange = function() {
     }
 };
 xmlhttp.open("GET", "http://bitcoin.mubiz.com/blockchaininfo", true);
-xmlhttp.send();
+xmlhttp.send();*/
 
-/*$(document).ready(function() {
+$(document).ready(function() {
 	$.ajax({
-		url : "https://api.blockcypher.com/v1/btc/main/blocks/294322?txstart=1&limit=1",
+		url : "http://bitcoin.mubiz.com/mininginfo",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
@@ -26,6 +26,6 @@ xmlhttp.send();
 			$('#bitcoin_block_number').append(err+" N/A");
 		}
 	});
-});*/
+});
 
 
