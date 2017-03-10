@@ -1,4 +1,4 @@
-/*var xmlhttp = new XMLHttpRequest();
+var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = this.responseText;
@@ -6,10 +6,10 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("demo").innerHTML = jsonPretty;
     }
 };
-xmlhttp.open("GET", "https://api.blockcypher.com/v1/btc/main", true);
-xmlhttp.send();*/
+xmlhttp.open("GET", "https://api.blockcypher.com/v1/btc/main/blocks/294322?txstart=1&limit=1", true);
+xmlhttp.send();
 
-$(document).ready(function() {
+/*$(document).ready(function() {
 	$.ajax({
 		url : "https://api.blockcypher.com/v1/btc/main/blocks/294322?txstart=1&limit=1",
 		dataType : "json",
@@ -26,6 +26,6 @@ $(document).ready(function() {
 			$('#bitcoin_block_number').append(err+" N/A");
 		}
 	});
-});
+});*/
 
 
