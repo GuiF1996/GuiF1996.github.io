@@ -7,7 +7,6 @@ xmlhttp.onreadystatechange = function() {
     }
 };
 xmlhttp.open("GET", "http://bitcoin.mubiz.com/blockchaininfo", true);
-xmlhttp.send();
 xmlhttp.open("GET", "http://bitcoin.mubiz.com/mininginfo", true);
 xmlhttp.send();
 /*xmlhttp.open("GET", "http://bitcoin.mubiz.com/peerinfo", true);
