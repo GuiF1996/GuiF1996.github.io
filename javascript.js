@@ -1,4 +1,4 @@
-var xmlhttp = new XMLHttpRequest();
+/*var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = this.responseText;
@@ -12,9 +12,9 @@ xmlhttp.send();
 /*xmlhttp.open("GET", "http://bitcoin.mubiz.com/peerinfo", true);
 xmlhttp.send();*/
 
-/*$(document).ready(function() {
+$(document).ready(function() {
 	$.ajax({
-		url : "http://bitcoin.mubiz.com/mininginfo",
+		url : ""http://bitcoin.mubiz.com/info",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
@@ -29,6 +29,6 @@ xmlhttp.send();*/
 			$('#bitcoin_block_number').append(err+" N/A");
 		}
 	});
-});*/
+});
 
 
