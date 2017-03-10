@@ -7,10 +7,11 @@ xmlhttp.onreadystatechange = function() {
     }
 };
 xmlhttp.open("GET", "https://api.blockcypher.com/v1/btc/main", true);
+xmlhttp.send();
 xmlhttp.open("GET", "http://bitcoin.mubiz.com/blockchaininfo", true);
+xmlhttp.send();
 xmlhttp.open("GET", "http://bitcoin.mubiz.com/mininginfo", true);
+xmlhttp.send();
 xmlhttp.open("GET", "http://bitcoin.mubiz.com/peerinfo", true);
-
-
 xmlhttp.send();
 
