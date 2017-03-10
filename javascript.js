@@ -11,7 +11,7 @@ xmlhttp.send();*/
 
 $(document).ready(function() {
 	$.ajax({
-		url : "http://bitcoin.mubiz.com/blocks",
+		url : "http://bitcoin.mubiz.com/blockchaininfo",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
